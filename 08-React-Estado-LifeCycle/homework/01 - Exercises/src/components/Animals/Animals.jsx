@@ -3,10 +3,19 @@ import React from 'react';
 
 export default class Animals extends React.Component {
   constructor(props) {
+    const propiedades = props
     super();
   }
 
   render() {
-    return <div></div>
+    return <div>
+      console.log(props)
+      {propiedades.map(animal => {
+        return <div>
+              <h5>{animal}</h5>
+              <img src={animal.imagen} alt={animal.name} />
+        </div> 
+      })}
+    </div>
   }
 }

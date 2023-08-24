@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import EstadosClase from "./claseEstados.jsx"
 
 import Contador from './src/components/Contador.jsx';
 import Main from './src/containers/Main.jsx';
