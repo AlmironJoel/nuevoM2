@@ -3,10 +3,10 @@ import { Link, Outlet,useNavigate,useParams } from "react-router-dom";
 const Profile  = ()=>{
 
     const navegate = useNavigate() 
-    console.log(navegate);
+    console.log(navegate);//entrega un objeto dentro encontramos el "to"
 
     const params = useParams()
-    console.log(params);
+    console.log(params);//entrega un objeto
     return(
         <div>
             <>
